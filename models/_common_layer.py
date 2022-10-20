@@ -817,9 +817,9 @@ def evaluate(model, data_loader, ty='valid', max_dec_step=30, save=False):
     if ty == "test" and save:
         hyp_b_pd = pd.DataFrame(hyp_b)
         if config.max_k == -1:
-            hyp_b_pd.to_csv(config.save_path + 'test/{}_beam.txt'.format(model.i_step), index=False, header=False)
+            hyp_b_pd.to_csv(config.save_path + '/test/{}_beam.txt'.format(model.i_step), index=False, header=False)
         else:
-            hyp_b_pd.to_csv(config.save_path + 'test/{}_{}_beam.txt'.format(model.i_step, config.max_k), index=False, header=False)
+            hyp_b_pd.to_csv(config.save_path + '/test/{}_{}_beam.txt'.format(model.i_step, config.max_k), index=False, header=False)
     loss = np.mean(l)
     kld = np.mean(kld)
     bleu_score_b = moses_multi_bleu(np.array(hyp_b), np.array(ref), lowercase=True)

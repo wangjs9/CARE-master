@@ -55,7 +55,7 @@ data_path = 'data/dataset_preproc.p'
 # graph_path = 'data/graph_preproc.p' if not arg.small_graph else 'data/graph_preproc_800.p'
 graph_path = 'data/graph_preproc.p'
 if arg.save_path == '':
-    save_path = 'save/CARE'
+    save_path = 'save/CARE/'
 else:
     save_path = 'save/{}/'.format(arg.save_path)
 if not os.path.exists(save_path):
