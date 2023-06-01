@@ -5,7 +5,24 @@
 
 This is the PyTorch implementation of the paper:
 
-**CARE: Causality Reasoning for Empathetic Responses by Conditional Graph Generation**. [**Jiashuo WANG**](http://www4.comp.polyu.edu.hk/~csjwang/), Yi CHENG, [**Wenjie LI**](https://www4.comp.polyu.edu.hk/~cswjli/), EMNLP 2022
+[**CARE: Causality Reasoning for Empathetic Responses by Conditional Graph Generation**](https://aclanthology.org/2022.findings-emnlp.51/). [**Jiashuo WANG**](http://www4.comp.polyu.edu.hk/~csjwang/), Yi CHENG, [**Wenjie LI**](https://www4.comp.polyu.edu.hk/~cswjli/), EMNLP 2022
+
+If you use our codes or your research is related to our work, please kindly cite our paper:
+
+```bib
+@inproceedings{wang-etal-2022-care,
+    title = "{CARE}: Causality Reasoning for Empathetic Responses by Conditional Graph Generation",
+    author = "Wang, Jiashuo  and
+      Cheng, Yi  and
+      Li, Wenjie",
+    booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2022",
+    month = dec,
+    year = "2022",
+    address = "Abu Dhabi, United Arab Emirates",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.findings-emnlp.51",
+    pages = "729--741",
+```
 
 
 ## Abstract
