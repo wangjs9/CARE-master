@@ -67,4 +67,4 @@ Run `bash RUN/train.sh` to train the model.
 Run `bash RUN/test.sh` to train the model (change the *--recover_path* and *--save_path*).
 
 ***Quick Checkpoint and Result***
-To skip training and testing, please check [**GARE**](https://drive.google.com/file/d/1dfqL1uCgZRpIoWK8fHqmjxvHMj8fQtwA/view?usp=sharing) and ./save/***generation_results.txt***.
+To skip training and testing, please check [**CARE**](https://drive.google.com/file/d/1dfqL1uCgZRpIoWK8fHqmjxvHMj8fQtwA/view?usp=sharing) and ./save/***generation_results.txt***.
