@@ -52,7 +52,7 @@ Download [**Cause Effect Graph**](https://github.com/eecrazy/CausalBank): **Caus
 
 Download [**Pre-trained glove embedding**](http://nlp.stanford.edu/data/glove.6B.zip): ***glove.6B.300d.txt*** inside folder ./data/glove.6B/.
 
-## Experiment
+## Experiments
 ### Processing Data
 ```console
 ❱❱❱ python data/data_process.py
