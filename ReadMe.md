@@ -6,6 +6,7 @@
 This is the PyTorch implementation of the paper:
 
 [**CARE: Causality Reasoning for Empathetic Responses by Conditional Graph Generation**](https://aclanthology.org/2022.findings-emnlp.51/). 
+
 [**Jiashuo WANG**](http://www4.comp.polyu.edu.hk/~csjwang/), Yi CHENG, [**Wenjie LI**](https://www4.comp.polyu.edu.hk/~cswjli/), EMNLP 2022
 
 If you use our codes or your research is related to our work, please kindly cite our paper:
